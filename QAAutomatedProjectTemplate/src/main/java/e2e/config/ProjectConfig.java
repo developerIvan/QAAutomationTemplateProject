@@ -10,7 +10,6 @@ import e2e.utils.*;
 public class ProjectConfig implements ISuiteListener  {
 
 	
-	@Override
 	public void onStart(ISuite suite) {
 		// TODO Auto-generated method stub
 		try {
@@ -29,7 +28,6 @@ public class ProjectConfig implements ISuiteListener  {
 	
 	}
 
-	@Override
 	public void onFinish(ISuite suite) {
 		// TODO Auto-generated method stub
 
